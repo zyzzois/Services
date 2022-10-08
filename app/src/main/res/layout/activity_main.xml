@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/buttonService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service" />
+
+    <Button
+        android:id="@+id/buttonForeGroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foreground service" />
+
+    <Button
+        android:id="@+id/buttonIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent wervice" />
+
+    <Button
+        android:id="@+id/buttonJobDispatcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job dispatcher" />
+
+    <Button
+        android:id="@+id/buttonJobIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job intent service" />
+
+    <Button
+        android:id="@+id/buttonAlarmManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm manager" />
+
+    <Button
+        android:id="@+id/buttonWorkManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work manager" />
+</LinearLayout>
